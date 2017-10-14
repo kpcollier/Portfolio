@@ -1,0 +1,150 @@
+﻿body {
+	background-color: #F5F3EE;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*First container, using flexbox to center Logo and About Me*/
+.container {
+	background-color: #F5F5F5;
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+	border-bottom: 3px solid #0F1626;
+	line-height: 0.1em;
+	margin: 20px 0 20px;
+	font-size: 1.25em;
+}
+
+h3 span {
+	background: #F5F5F5;
+	padding: 0 10px;
+}
+
+.hero {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 7% 0;
+	background-image: url("../img/background.jpg");
+	border-radius: 25px;
+}
+
+.hero h1 {
+	font-size: 5.0vw;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .3em;
+}
+
+.hero h2 {
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: .1em;
+}
+
+
+.aboutme {
+	background-color: #0F1626;
+	color: #F5F3EE;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 25px;
+	width: 920px;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	padding-left: 20px;
+	padding-right: 20px;
+	order: 2;
+}
+
+.logo {
+	order: 1;
+	margin: 0 auto;
+	margin-right: 20px;
+
+}
+
+/*Second container, using flexbox to center the three projects*/
+.projects {
+	background-color: #AB987A;
+	margin: 0 auto;
+	border-radius: 25px;
+	max-width: 100%;
+	max-height: 100%;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-between;
+	color: #F5F3EE;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .05em;
+	font-size: 1.25em;
+}
+
+.projects1 {
+ 	order: 1;
+}
+
+.projects2 {
+	order: 2;
+}
+
+.projects3 {
+	order: 3;
+}
+
+.button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #f5f3ee;
+  font-size: 16px;
+  background: #0f1626;
+  padding: 10px 28px 10px 28px;
+  text-decoration: none;
+}
+
+/*Add a hover so the user knows that the buttons do something*/
+.button:hover {
+  background: #ff543d;
+  background-image: -webkit-linear-gradient(top, #0f1626, #2675FF);
+  background-image: -moz-linear-gradient(top, #0f1626, #2675FF);
+  background-image: -ms-linear-gradient(top, #0f1626, #2675FF);
+  background-image: -o-linear-gradient(top, #0f1626, #2675FF);
+  background-image: linear-gradient(to bottom, #0f1626, #2675FF);
+  text-decoration: none;
+}
+
+.footer {
+	text-align: center;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: .75em;
+}
